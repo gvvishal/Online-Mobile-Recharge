@@ -1,0 +1,54 @@
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 16px; /* Space between cards */
+  padding: 16px; /* Padding around the grid */
+}
+
+.product-card {
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  overflow: hidden; /* Hide overflow */
+  text-align: center; /* Center text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.product-card:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.product-card img {
+  width: 100%; /* Image fills the card width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+.product-card h3 {
+  font-size: 1rem; /* Title font size */
+  margin: 8px 0; /* Margin around the title */
+  color: #333333; /* Dark text color */
+}
+
+.product-card p {
+  font-size: 0.9rem; /* Price font size */
+  color: #666666; /* Gray text color */
+  margin: 4px 0; /* Margin around the price */
+}
+
+.product-card a {
+  display: inline-block;
+  padding: 10px 20px; /* Button padding */
+  margin: 8px; /* Margin around buttons */
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* White text color */
+  background-color: #f15a24; /* Airtel red color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 0.9rem; /* Button text size */
+  transition: background-color 0.3s ease; /* Smooth color change */
+}
+
+.product-card a:hover {
+  background-color: #c43d1c; /* Darker red on hover */
+}

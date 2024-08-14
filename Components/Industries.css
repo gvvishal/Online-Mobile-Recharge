@@ -1,0 +1,54 @@
+.industries-container {
+    text-align: center;
+    padding: 60px 30px;
+    background-color: #f5f5f5; /* Light grey background for contrast */
+}
+
+.industries-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0078d4; /* Jio Blue */
+    margin-bottom: 20px;
+}
+
+.industries-container p {
+    font-size: 1.1rem;
+    color: #333; /* Dark text color for readability */
+    margin-bottom: 40px;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.industry-card {
+    background-color: #ffffff; /* White background for cards */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.industry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.industry-icon {
+    font-size: 3.5rem;
+    color: #0078d4; /* Jio Blue */
+    margin-bottom: 15px;
+}
+
+.industry-card h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.industry-card p {
+    font-size: 1rem;
+    color: #666; /* Grey text for secondary information */
+}

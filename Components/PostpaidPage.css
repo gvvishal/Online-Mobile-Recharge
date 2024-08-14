@@ -1,0 +1,90 @@
+/* src/Components/PlansSection.css */
+.plans-section {
+    padding: 20px;
+    max-width: 1200px; /* Optional: limit the maximum width of the section */
+    margin: auto; /* Center the section */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .plan-card {
+    background-color: #f0f4ff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .monthly-cost {
+    background-color: #0056b3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .details {
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .view-details {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .plan-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .validity, .data {
+    font-size: 0.9em;
+  }
+  
+  .subscriptions {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .subscription {
+    display: inline-block;
+    margin-right: 5px;
+    color: red;
+  }
+  
+  .recharge-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .recharge-button:hover {
+    background-color: darkblue;
+  }
+  

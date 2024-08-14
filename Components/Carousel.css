@@ -1,0 +1,13 @@
+.sliding-siva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px; 
+  overflow: hidden;
+}
+
+.sliding-siva img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
